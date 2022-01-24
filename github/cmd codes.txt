@@ -9,3 +9,6 @@ ls -> list items
 php:-
 	php -S localhost:4000
 	ctrl+c to end
+
+django:-
+	from django.contrib import adminx
