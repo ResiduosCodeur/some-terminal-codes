@@ -9,3 +9,17 @@ pip3 install opencv-python
 	
 php:-
 	sudo apt install openssh-server
+	
+	not found error:-
+		sudo nano /etc/apache2/apache2.conf
+		
+		Include /etc/phpmyadmin/apache.conf
+
+		sudo /etc/init.d/apache2 restart
+
+directries:-
+	cd /mnt -> go out of folders
+	cd c -> enter c drive
+	ls -> list folders/files
+	mkdir 'foldername' -> create directory
+	
