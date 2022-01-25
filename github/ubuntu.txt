@@ -6,3 +6,6 @@ pip3 install opencv-python
 
 .py - .exe:-
 	python3 fliename.py
+	
+php:-
+	sudo apt install openssh-server
