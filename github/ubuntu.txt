@@ -19,7 +19,9 @@ php:-
 
 directries:-
 	cd /mnt -> go out of folders
+	cd - -> back
 	cd c -> enter c drive
 	ls -> list folders/files
 	mkdir 'foldername' -> create directory
+	rm -R folder-name -> delete folder
 	
