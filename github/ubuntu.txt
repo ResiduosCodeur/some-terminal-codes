@@ -26,8 +26,8 @@ directries:-
 	rm -R folder-name -> delete folder
 	
 Django:-
-	source bin/activate
-	python manage.py runserver
+	source bin/activate --> activate virtual env
+	python manage.py runserver --> runs the django server
 	
 	go to src folder:-
 		python manage.py startapp 'appname' 	eg; python manage.py startapp one
@@ -35,6 +35,12 @@ Django:-
 		
 		python manage.py makemigrations -> whenever chages
 		python manage.py migrate           are made 
+		
+	 python manage.py shell --> makes us edit the class
+	 from one.models import Product  --> 'one' is a folder and 'models' is a file and 'Product' class is being imported
+	 Product.objects.create(title = 'New producct 2', description = 'another one', price = '19312', summary = 'sweet') --> creating a new object
+	 Product.objects.all() --> shows all the objects
+	 
 		
 		
 		
