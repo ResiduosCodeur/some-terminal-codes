@@ -4,10 +4,13 @@ sudo apt install python3-pip
 
 pip3 install opencv-python
 
-.py - .exe:-
+run .py file:-
 	python3 fliename.py
 	
 php:-
+	php -S localhost:4000
+	ctrl+c to end
+	
 	sudo apt install openssh-server
 	
 	not found error:-
@@ -28,6 +31,7 @@ directries:-
 Django:-
 	source bin/activate --> activate virtual env
 	python manage.py runserver --> runs the django server
+	from django.contrib import adminx
 	
 	go to src folder:-
 		python manage.py startapp 'appname' 	eg; python manage.py startapp one
