@@ -12,3 +12,9 @@ php:-
 
 django:-
 	from django.contrib import adminx
+	
+API:-
+	pip install fastapi
+	pip install uvicorn
+	uvicorn filename:x --reload  [x --> variable where fastapi is stored. in case of 1.py its app]
+	
