@@ -21,3 +21,6 @@ API:-
 		or
 	python -m uvicorn filename:x --reload
 	e.g- python -m uvicorn 1:app --reload
+	
+	http://127.0.0.1:8000/docs
+	http://127.0.0.1:8000/get
