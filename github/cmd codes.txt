@@ -16,5 +16,8 @@ django:-
 API:-
 	pip install fastapi
 	pip install uvicorn
-	uvicorn filename:x --reload  [x --> variable where fastapi is stored. in case of 1.py its app]
 	
+	uvicorn filename:x --reload  [x --> variable where fastapi is stored. in case of 1.py its app]
+		or
+	python -m uvicorn filename:x --reload
+	e.g- python -m uvicorn 1:app --reload
