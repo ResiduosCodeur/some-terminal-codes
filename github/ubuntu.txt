@@ -22,7 +22,8 @@ php:-
 
 directries:-
 	cd /mnt -> go out of folders
-	cd - -> back
+	cd - -> home dir
+	cd .. -> go up one directory
 	cd c -> enter c drive
 	ls -> list folders/files
 	mkdir 'foldername' -> create directory
