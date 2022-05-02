@@ -1,2 +1,4 @@
 python -m pip install -U discord.py :- install python module
+or 
+pip install discord.py
 python3 -m pip install -U discord.py[voice] :- voice library just in case needed(not necessary)
